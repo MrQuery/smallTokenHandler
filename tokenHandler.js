@@ -30,7 +30,7 @@ TH = {
     },
     checkToken : function() {
         var tokenExists = TH.getFromStorage();
-        if ( tokenExists === "null" || tokenExists === null || tokenExists === undefined ) {
+        if ( !tokenExists ) {
             return false;
         } else {
             return TH.validate(TH.decode(tokenExists));
