@@ -62,8 +62,8 @@ TH = {
             document.cookie = s+"=;expires=Thu, 01 Jan 1970 00:00:01 GMT;domain="+domain+";";
             return domain;
         })();
-      //  document.cookie = 'JWT_TOKEN_TH=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-        document.cookie = 'JWT_TOKEN_TH=;expires='+new Date(0).toUTCString()+';domain='+domain+';path=/';
+        document.cookie = 'JWT_TOKEN_TH=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+      //  document.cookie = 'JWT_TOKEN_TH=;expires='+new Date(0).toUTCString()+';domain='+domain+';path=/';
     }
 };
 
